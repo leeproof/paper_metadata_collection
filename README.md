@@ -2,7 +2,7 @@
 1. app.py 실행 -> streamlit 어플 구동
 2. 구동된 streamlit 어플 내에서 논문 메타데이터 수집 파이프라인 활용
 
-# 내부
+# Logic
 1. real1
   - OpenAlex API 활용, 논문 메타데이터 수집 (ISSN, 연도 기간 입력)
   - Crossref API 활용, 결측된 DOI 보강 작업 수행 (배치 단위로)
