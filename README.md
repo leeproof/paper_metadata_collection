@@ -4,9 +4,9 @@
 
 # 내부
 1. real1
-  OpenAlex API 활용, 논문 메타데이터 수집 (ISSN, 연도 기간 입력)
-  Crossref API 활용, 결측된 DOI 보강 작업 수행 (배치 단위로)
-  JSON 파일 생성
+  - OpenAlex API 활용, 논문 메타데이터 수집 (ISSN, 연도 기간 입력)
+  - Crossref API 활용, 결측된 DOI 보강 작업 수행 (배치 단위로)
+  - JSON 파일 생성
 2. real2
   1을 통해 수집된 메타데이터(JSON파)를 CSV파일로 변환 수행
 3. real3
